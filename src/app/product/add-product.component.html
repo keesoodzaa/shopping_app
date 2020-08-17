@@ -1,0 +1,7 @@
+<form class="form-inline" #addProductFrom="ngForm" (ngSubmit)="addNew(addProductFrom.value)" autocomplete="off" novalidate>
+    <label class="sr-only" for="inlineFormInputName2">add item to list</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" (ngModel)="product.name" name="name"
+    placeholder="add item to list"  >
+  
+    <button type="submit" [disabled]="addProductFrom.invalid"  class="btn btn-primary mb-2">Save</button>
+  </form>
