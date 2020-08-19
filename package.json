@@ -1,6 +1,9 @@
 {
   "name": "shopping",
   "version": "0.0.0",
+  "author": {
+    "name": "Somboonk"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -19,7 +22,7 @@
     "@angular/platform-browser": "~10.0.6",
     "@angular/platform-browser-dynamic": "~10.0.6",
     "@angular/router": "~10.0.6",
-    "bootstrap": "^4.5.2",
+    "bootstrap": "3.3.7",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
